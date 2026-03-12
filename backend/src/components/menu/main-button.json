@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_menu_main_buttons",
+  "info": {
+    "displayName": "mainButton",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "subButton": {
+      "type": "component",
+      "component": "menu.sub-button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

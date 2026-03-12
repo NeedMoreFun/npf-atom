@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_sub_buttons",
+  "info": {
+    "displayName": "subButton",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  /* Tailwind v4 сама создаст классы text-brand-primary, text-text-main и т.д. */
+  --color-brand-primary: hsl(var(--brand-primary));
+  --color-brand-secondary: hsl(var(--brand-secondary));
+  --color-text-main: hsl(var(--text-main));
+  --radius-xl: var(--radius-lg);
+}
+
+@layer base {
+  :root {
+    /* Только цифры HSL: Hue, Saturation, Lightness */
+    --brand-primary: 217 91% 24%;   /* Синий */
+    --brand-secondary: 21 90% 48%; /* Оранжевый */
+    --brand-muted: 210 20% 96%;    
+    
+    --text-main: 215 25% 12%;
+    --text-muted: 215 16% 47%;
+    
+    --radius-lg: 1.5rem;
+  }
+    body {
+    @apply bg-[#fcfcfd] text-text-main antialiased;
+  }
+
+  /* Для Атомфонда потом просто добавим:
+  .theme-atomfond {
+    --brand-primary: 142 76% 18%; 
+    --brand-secondary: 142 70% 45%;
+  }
+  */
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_main_menus",
+  "info": {
+    "displayName": "mainMenu",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "mainButton": {
+      "type": "component",
+      "component": "menu.main-button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
